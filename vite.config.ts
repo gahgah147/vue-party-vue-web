@@ -21,7 +21,7 @@ export default defineConfig(({ command, mode }) => {
       https: true,
       proxy: {
         '/socket.io': {
-          target: 'ws://vue-party-nestjs-server.vercel.app/socket.io',
+          target: 'https://vue-party-nestjs-server.vercel.app/socket.io',
           ws: true
         }
       }
